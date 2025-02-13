@@ -3,8 +3,8 @@ import requests
 import os
 
 # Load environment variables (Replace with actual keys or set as environment variables)
-TOKEN = os.getenv("DISCORD_BOT_TOKEN", "MTMzNzY4NDczODgzNTc0Mjc3MA.G24vfX.IF76uEDjsG9nINbCAPwfGaoF1GLJ3_hHRCnfgI")  # Replace with your bot token
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-8a606c9bd2ce4494a2fd17041cdb693f")  # Replace with DeepSeek API key
+TOKEN = os.getenv("DISCORD_BOT_TOKEN", "YOUR_DISCORD_BOT_TOKEN")  # Replace with your bot token
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "YOUR_DEEPSEEK_API_KEY")  # Replace with DeepSeek API key
 
 # Initialize Discord bot
 intents = discord.Intents.default()
